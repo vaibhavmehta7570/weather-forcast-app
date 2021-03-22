@@ -11,13 +11,13 @@ const App = () => {
       <Navbar />
       <main>
         <Switch>
-          <Route path="/home">
+          <Route exact path='/'>
             <Home />
           </Route>
-          <Route path="/counter">
+          <Route path='/counter'>
             <Counter />
           </Route>
-          <Route path="/weatherapp">
+          <Route path='/weatherapp'>
             <WeatherApp />
           </Route>
         </Switch>
