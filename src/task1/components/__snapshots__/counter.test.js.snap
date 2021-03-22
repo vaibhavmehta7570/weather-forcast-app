@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test counter.jsx render correctly Counter component 1`] = `
+<div
+  className="counter-app"
+>
+  <section
+    className="counter-value"
+  >
+    0
+  </section>
+  <section
+    className="icon-panel"
+  >
+    <button
+      className="btn btn-green"
+      onClick={[Function]}
+    />
+    <button
+      className="btn btn-orange"
+      onClick={[Function]}
+    />
+    <button
+      className="btn btn-red"
+      onClick={[Function]}
+    />
+  </section>
+</div>
+`;

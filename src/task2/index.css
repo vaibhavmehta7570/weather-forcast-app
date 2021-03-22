@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:wght@700;500;900&display=swap');
+
+.weather-app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 4rem 2rem;
+}
+
+.searchbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #24252a;
+  border-radius: 2rem;
+  align-self: center;
+  padding: 0.5rem 2rem;
+}
+
+.searchbar__input {
+  background-color: #24252a;
+  border: none;
+  font-size: 1.5rem;
+  border-bottom: 1px solid #363546;
+  margin: 0 1rem;
+  color: #ffffff;
+  width: 80%;
+  margin: 0.5rem 0;
+}
+
+.searchbar__input--error {
+  border-color: hsl(0, 100%, 74%);
+}
+
+.searchbar__submit {
+  border: none;
+  border-radius: 1rem;
+  font-size: 1.5rem;
+  background: none;
+  color: #ffffff;
+}
+
+.weathercard-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.weathercard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 1rem 0rem;
+  background: #24232f;
+  border-radius: 0.6rem;
+  font-size: 0.9rem;
+  width: 20rem;
+}
+
+.weathercard__header {
+  text-align: start;
+  padding: 0 1rem;
+  background-color: #2e2c3b;
+  border-radius: 0.6rem 0.6rem 0 0;
+  line-height: 2rem;
+}
+
+.weathercard__body {
+  padding: 0.5rem 1rem;
+  font-weight: 500;
+}
+
+.weathercard__icon {
+  font-size: 4rem;
+  color: #469bfc;
+}
+
+.weathercard__body--info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  align-items: center;
+}
+
+.weathercard__detail {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.weathercard__detail--thin {
+  font-weight: 200;
+}
+
+.weathercard__temp {
+  display: flex;
+  flex-direction: column;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.weathercard__maxMin {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  align-items: center;
+}
+
+.faCaret {
+  margin-left: 0.5rem;
+}
+
+.faCaretUp {
+  color: rgb(51, 255, 51);
+}
+
+.faCaretDown {
+  color: hsl(0, 98%, 66%);
+}
+
+.error {
+  margin-top: 1rem;
+}
+
+.error__figure {
+  font-size: 2rem;
+}
+
+@media only screen and (min-width: 900px) {
+  .weathercard-container {
+    flex-direction: row;
+    margin: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .weathercard {
+    width: 20rem;
+    margin: 1rem;
+  }
+
+  .searchbar {
+    flex-direction: row;
+    padding: 1rem 2rem;
+  }
+
+  .searchbar__input {
+    margin: 0 1rem;
+  }
+}

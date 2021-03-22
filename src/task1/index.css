@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:wght@500&display=swap');
+
+.counter-app {
+  font-size: 4rem;
+  color: hsl(0, 0%, 60%);
+  margin: 5rem auto;
+  border: 0.1rem solid grey;
+  display: inline-block;
+}
+
+.counter-value {
+  padding: 4rem;
+  margin: auto;
+}
+
+.icon-panel {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.btn {
+  text-align: center;
+  width: 6rem;
+  height: 6rem;
+  border: none;
+  background-repeat: no-repeat;
+  background-size: 3rem;
+  background-position: center;
+}
+
+.btn-green {
+  background-color: #00b648;
+  background-image: url(./assets/plus-solid.svg);
+}
+.btn-orange {
+  background-color: #e2af00;
+  background-image: url(./assets/sync-solid.svg);
+}
+.btn-red {
+  background-color: #eb0038;
+  background-image: url(./assets/minus-solid.svg);
+}
+
+.icon {
+  margin-bottom: 11rem;
+  width: 3rem;
+  height: 3rem;
+}

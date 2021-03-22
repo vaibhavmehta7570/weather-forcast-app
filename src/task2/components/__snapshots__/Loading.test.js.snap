@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should test app.js should render Loading div correctly 1`] = `
+<div
+  class="loadingio-spinner-spinner-rwrfifmnsar"
+>
+  <div
+    class="ldio-uvsg4dk6pgq"
+  >
+    <div />
+    <div />
+    <div />
+    <div />
+    <div />
+    <div />
+    <div />
+    <div />
+    <div />
+    <div />
+    <div />
+    <div />
+  </div>
+</div>
+`;

@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should test Home.js Should render Home component correctly 1`] = `
+<img
+  alt="home"
+  className="home__background"
+  src="home.svg"
+/>
+`;

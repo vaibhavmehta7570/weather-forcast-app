@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should test WeatherApp.jsx render correctly WeatherApp component 1`] = `
+<section
+  className="weather-app"
+>
+  <form
+    className="searchbar"
+    onSubmit={[Function]}
+  >
+    <input
+      className="searchbar__input"
+      onChange={[Function]}
+      placeholder="Enter city"
+      type="text"
+      value="Bangalore"
+    />
+    <button
+      className="searchbar__submit"
+      type="submit"
+    >
+      find!
+    </button>
+  </form>
+  <div
+    className="weathercard-container"
+  >
+    <div
+      class="loadingio-spinner-spinner-rwrfifmnsar"
+    >
+      <div
+        class="ldio-uvsg4dk6pgq"
+      >
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+      </div>
+    </div>
+  </div>
+</section>
+`;

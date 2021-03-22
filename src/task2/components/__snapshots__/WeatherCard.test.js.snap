@@ -1,0 +1,355 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should test WeatherCard.jsx should render correctly weatherCard component 1`] = `
+<article
+  className="weathercard"
+>
+  <header
+    className="weathercard__header"
+  >
+    2021-01-28
+  </header>
+  <section
+    className="weathercard__body"
+  >
+    <section
+      className="weathercard__body--info"
+    >
+      <span
+        className="weathercard__detail"
+      >
+        goa
+      </span>
+      <span
+        className="weathercard__detail"
+      >
+        few clouds
+      </span>
+    </section>
+    <section
+      className="weathercard__body--info"
+    >
+      <div
+        className="weathercard__temp"
+      >
+        <span
+          className="weathercard__maxMin"
+        >
+          <span>
+            29
+            <span>
+              °
+            </span>
+            C
+          </span>
+          <svg
+            aria-hidden="true"
+            className="svg-inline--fa fa-caret-up fa-w-10 faCaret faCaretUp"
+            data-icon="caret-up"
+            data-prefix="fas"
+            focusable="false"
+            role="img"
+            style={Object {}}
+            viewBox="0 0 320 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M288.662 352H31.338c-17.818 0-26.741-21.543-14.142-34.142l128.662-128.662c7.81-7.81 20.474-7.81 28.284 0l128.662 128.662c12.6 12.599 3.676 34.142-14.142 34.142z"
+              fill="currentColor"
+              style={Object {}}
+            />
+          </svg>
+        </span>
+        <span
+          className="weathercard__maxMin"
+        >
+          <span>
+            20.2
+            <span>
+              °
+            </span>
+            C
+             
+          </span>
+          <svg
+            aria-hidden="true"
+            className="svg-inline--fa fa-caret-down fa-w-10 faCaret faCaretDown"
+            data-icon="caret-down"
+            data-prefix="fas"
+            focusable="false"
+            role="img"
+            style={Object {}}
+            viewBox="0 0 320 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"
+              fill="currentColor"
+              style={Object {}}
+            />
+          </svg>
+        </span>
+      </div>
+      <i
+        className="weathercard__icon wi wi-day-cloudy"
+      />
+    </section>
+    <section
+      className="weathercard__body--info"
+    >
+      <span
+        className="weathercard__detail weathercard__detail--thin"
+      >
+        Humidity 
+        <br />
+        49
+         %
+      </span>
+      <span
+        className="weathercard__detail weathercard__detail--thin"
+      >
+        Wind speed 
+        <br />
+        3.16
+         knots
+      </span>
+    </section>
+  </section>
+</article>
+`;
+
+exports[`Should test WeatherCard.jsx should render correctly weatherCard component with 699 < iconID < 800 1`] = `
+<article
+  className="weathercard"
+>
+  <header
+    className="weathercard__header"
+  >
+    2021-01-28
+  </header>
+  <section
+    className="weathercard__body"
+  >
+    <section
+      className="weathercard__body--info"
+    >
+      <span
+        className="weathercard__detail"
+      >
+        goa
+      </span>
+      <span
+        className="weathercard__detail"
+      >
+        few clouds
+      </span>
+    </section>
+    <section
+      className="weathercard__body--info"
+    >
+      <div
+        className="weathercard__temp"
+      >
+        <span
+          className="weathercard__maxMin"
+        >
+          <span>
+            29
+            <span>
+              °
+            </span>
+            C
+          </span>
+          <svg
+            aria-hidden="true"
+            className="svg-inline--fa fa-caret-up fa-w-10 faCaret faCaretUp"
+            data-icon="caret-up"
+            data-prefix="fas"
+            focusable="false"
+            role="img"
+            style={Object {}}
+            viewBox="0 0 320 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M288.662 352H31.338c-17.818 0-26.741-21.543-14.142-34.142l128.662-128.662c7.81-7.81 20.474-7.81 28.284 0l128.662 128.662c12.6 12.599 3.676 34.142-14.142 34.142z"
+              fill="currentColor"
+              style={Object {}}
+            />
+          </svg>
+        </span>
+        <span
+          className="weathercard__maxMin"
+        >
+          <span>
+            20.2
+            <span>
+              °
+            </span>
+            C
+             
+          </span>
+          <svg
+            aria-hidden="true"
+            className="svg-inline--fa fa-caret-down fa-w-10 faCaret faCaretDown"
+            data-icon="caret-down"
+            data-prefix="fas"
+            focusable="false"
+            role="img"
+            style={Object {}}
+            viewBox="0 0 320 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"
+              fill="currentColor"
+              style={Object {}}
+            />
+          </svg>
+        </span>
+      </div>
+      <i
+        className="weathercard__icon wi wi-day-windy"
+      />
+    </section>
+    <section
+      className="weathercard__body--info"
+    >
+      <span
+        className="weathercard__detail weathercard__detail--thin"
+      >
+        Humidity 
+        <br />
+        49
+         %
+      </span>
+      <span
+        className="weathercard__detail weathercard__detail--thin"
+      >
+        Wind speed 
+        <br />
+        3.16
+         knots
+      </span>
+    </section>
+  </section>
+</article>
+`;
+
+exports[`Should test WeatherCard.jsx should render correctly weatherCard component with 899 < iconID <1000 1`] = `
+<article
+  className="weathercard"
+>
+  <header
+    className="weathercard__header"
+  >
+    2021-01-28
+  </header>
+  <section
+    className="weathercard__body"
+  >
+    <section
+      className="weathercard__body--info"
+    >
+      <span
+        className="weathercard__detail"
+      >
+        goa
+      </span>
+      <span
+        className="weathercard__detail"
+      >
+        few clouds
+      </span>
+    </section>
+    <section
+      className="weathercard__body--info"
+    >
+      <div
+        className="weathercard__temp"
+      >
+        <span
+          className="weathercard__maxMin"
+        >
+          <span>
+            29
+            <span>
+              °
+            </span>
+            C
+          </span>
+          <svg
+            aria-hidden="true"
+            className="svg-inline--fa fa-caret-up fa-w-10 faCaret faCaretUp"
+            data-icon="caret-up"
+            data-prefix="fas"
+            focusable="false"
+            role="img"
+            style={Object {}}
+            viewBox="0 0 320 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M288.662 352H31.338c-17.818 0-26.741-21.543-14.142-34.142l128.662-128.662c7.81-7.81 20.474-7.81 28.284 0l128.662 128.662c12.6 12.599 3.676 34.142-14.142 34.142z"
+              fill="currentColor"
+              style={Object {}}
+            />
+          </svg>
+        </span>
+        <span
+          className="weathercard__maxMin"
+        >
+          <span>
+            20.2
+            <span>
+              °
+            </span>
+            C
+             
+          </span>
+          <svg
+            aria-hidden="true"
+            className="svg-inline--fa fa-caret-down fa-w-10 faCaret faCaretDown"
+            data-icon="caret-down"
+            data-prefix="fas"
+            focusable="false"
+            role="img"
+            style={Object {}}
+            viewBox="0 0 320 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"
+              fill="currentColor"
+              style={Object {}}
+            />
+          </svg>
+        </span>
+      </div>
+      <i
+        className="weathercard__icon wi wi-hot"
+      />
+    </section>
+    <section
+      className="weathercard__body--info"
+    >
+      <span
+        className="weathercard__detail weathercard__detail--thin"
+      >
+        Humidity 
+        <br />
+        49
+         %
+      </span>
+      <span
+        className="weathercard__detail weathercard__detail--thin"
+      >
+        Wind speed 
+        <br />
+        3.16
+         knots
+      </span>
+    </section>
+  </section>
+</article>
+`;

@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should test WeatherApp.jsx should render correctly Counter component 1`] = `
+<section
+  className="error"
+>
+  <figure
+    className="error__figure"
+  >
+    ¯\\_(ツ)_/¯
+  </figure>
+  <label
+    className="error__message"
+  />
+</section>
+`;

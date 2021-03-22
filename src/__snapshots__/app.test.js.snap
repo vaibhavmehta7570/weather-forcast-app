@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should test app.js should render correctly app component 1`] = `
+Array [
+  <nav
+    className="navbar"
+  >
+    <a
+      href="/home"
+      onClick={[Function]}
+    >
+      Home
+    </a>
+    <a
+      href="/counter"
+      onClick={[Function]}
+    >
+      Counter Task
+    </a>
+    <a
+      href="/weatherapp"
+      onClick={[Function]}
+    >
+      Weather App
+    </a>
+  </nav>,
+  <main />,
+]
+`;

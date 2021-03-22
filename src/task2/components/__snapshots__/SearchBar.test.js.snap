@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should test SearchBar.jsx should render correctly Searchbar component 1`] = `
+<form
+  className="searchbar"
+  onSubmit={[Function]}
+>
+  <input
+    className="searchbar__input searchbar__input--error"
+    placeholder="Enter city"
+    type="text"
+  />
+  <button
+    className="searchbar__submit"
+    type="submit"
+  >
+    find!
+  </button>
+</form>
+`;
