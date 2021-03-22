@@ -1,5 +1,5 @@
 import React from 'react'
-import App from './app'
+import App from './App'
 import renderer from 'react-test-renderer'
 import { BrowserRouter } from 'react-router-dom'
 
